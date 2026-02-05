@@ -3,22 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alliance pour la Mauritanie (PAM) | حزب التحالف من أجل موريتانيا</title>
-    
-    <meta property="og:title" content="Parti de l'Alliance pour la Mauritanie (PAM)">
-    <meta property="og:description" content="Rejoignez l'Alliance pour le progrès, l'unité et la justice en Mauritanie.">
+    <title>TEM | Parti de l'Alliance pour la Mauritanie</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;700&display=swap');
-        
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .arabic { 
-            direction: rtl; 
-            font-family: 'Amiri', serif; 
-            line-height: 1.6;
-        }
+        .arabic { direction: rtl; font-family: 'Amiri', serif; }
         .whatsapp-float {
             position: fixed; width: 60px; height: 60px; bottom: 30px; right: 30px;
             background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center;
@@ -35,67 +27,64 @@
     <nav class="bg-green-700 text-white p-4 sticky top-0 z-50 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex flex-col">
-                <span class="text-xl font-bold tracking-widest">PAM</span>
-                <span class="text-[10px] uppercase opacity-80">Alliance pour la Mauritanie</span>
+                <span class="text-2xl font-extrabold tracking-tighter">TEM<span class="text-yellow-400">.</span></span>
             </div>
-            <div class="hidden lg:flex space-x-8 font-medium italic">
+            <div class="hidden lg:flex space-x-8 font-medium">
                 <a href="#vision" class="hover:text-yellow-400 transition">Vision</a>
+                <a href="#don" class="hover:text-yellow-400 transition text-yellow-300 font-bold underline">Faire un Don</a>
                 <a href="#rejoindre" class="hover:text-yellow-400 transition">Adhésion</a>
             </div>
-            <div class="arabic text-2xl font-bold">التحالف من أجل موريتانيا</div>
+            <div class="arabic text-2xl font-bold">حزب التحالف من أجل موريتانيا</div>
         </div>
     </nav>
 
     <header class="bg-white border-b relative">
-        <div class="container mx-auto px-4 py-20 text-center">
-            <h1 class="text-3xl md:text-5xl font-extrabold text-green-800 mb-2">
-                Parti de l'Alliance pour la Mauritanie (PAM)
+        <div class="container mx-auto px-4 py-16 md:py-24 text-center">
+            <div class="inline-block bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold mb-4">
+                MOUVEMENT OFFICIEL
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-green-800 mb-4 leading-tight">
+                Parti de l'Alliance pour la Mauritanie
             </h1>
-            <div class="arabic text-4xl md:text-6xl font-bold text-green-700 mb-8">
+            <div class="arabic text-3xl md:text-5xl font-bold text-green-700 mb-8">
                 حزب التحالف من أجل موريتانيا
             </div>
             
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-4 leading-relaxed">
-                Bâtissons ensemble une nation forte, unie et prospère. L'Alliance pour le changement et la justice sociale.
-            </p>
-            <p class="arabic text-2xl text-gray-700 max-w-3xl mx-auto mb-10">
-                لنبنِ معاً وطناً قوياً، موحداً ومزدهراً. التحالف من أجل التغيير والعدالة الاجتماعية.
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Bâtissons ensemble une nation forte et unie. TEM s'engage pour le progrès de chaque Mauritanien.
             </p>
 
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="#rejoindre" class="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-xl font-bold shadow-lg transition">
-                    Devenir Membre / انضم إلينا الآن
+                <a href="#rejoindre" class="bg-green-700 hover:bg-green-800 text-white px-10 py-4 rounded-xl font-bold shadow-lg transition text-lg">
+                    Rejoindre TEM / انضم إلينا
                 </a>
-                <a href="https://wa.me/491629336511" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold shadow-lg transition flex items-center gap-2">
-                    <i class="fab fa-whatsapp"></i> Diaspora Europe
+                <a href="#don" class="bg-yellow-500 hover:bg-yellow-600 text-white px-10 py-4 rounded-xl font-bold shadow-lg transition text-lg">
+                    Soutenir / دعم الحزب
                 </a>
             </div>
         </div>
     </header>
 
-    <section id="vision" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="bg-white p-8 rounded-3xl shadow-sm border-t-8 border-green-600 text-center">
-                    <div class="text-green-600 text-4xl mb-4"><i class="fas fa-balance-scale"></i></div>
-                    <h3 class="text-xl font-bold mb-2">Justice & Équité</h3>
-                    <div class="arabic text-2xl font-bold text-green-700 mb-4">العدالة والإنصاف</div>
-                    <p class="text-gray-600 text-sm">Répartition équitable des richesses pour tous.</p>
-                    <p class="arabic text-lg text-gray-700 mt-2">توزيع عادل للثروات والفرص لكل الموريتانيين.</p>
+    <section id="don" class="py-20 bg-green-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-green-900 mb-2">Contribuez au Changement</h2>
+            <div class="arabic text-3xl text-green-700 mb-12 font-bold">ساهم في التغيير - دعم الحزب</div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-10 rounded-[2rem] shadow-xl border border-gray-100">
+                    <i class="fab fa-paypal text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Diaspora (PayPal)</h3>
+                    <p class="text-gray-500 mb-6 text-sm">Soutenez-nous depuis l'étranger en toute sécurité.</p>
+                    <a href="https://www.paypal.me/votre-compte" class="inline-block w-full bg-blue-600 text-white font-bold py-4 rounded-2xl hover:bg-blue-700 transition">Faire un don</a>
                 </div>
-                <div class="bg-white p-8 rounded-3xl shadow-sm border-t-8 border-yellow-500 text-center">
-                    <div class="text-yellow-500 text-4xl mb-4"><i class="fas fa-shield-alt"></i></div>
-                    <h3 class="text-xl font-bold mb-2">Unité Nationale</h3>
-                    <div class="arabic text-2xl font-bold text-yellow-600 mb-4">الوحدة الوطنية</div>
-                    <p class="text-gray-600 text-sm">Cohésion sociale entre toutes nos communautés.</p>
-                    <p class="arabic text-lg text-gray-700 mt-2">تعزيز التماسك الاجتماعي بين جميع مكونات شعبنا.</p>
-                </div>
-                <div class="bg-white p-8 rounded-3xl shadow-sm border-t-8 border-green-600 text-center">
-                    <div class="text-green-600 text-4xl mb-4"><i class="fas fa-seedling"></i></div>
-                    <h3 class="text-xl font-bold mb-2">Développement</h3>
-                    <div class="arabic text-2xl font-bold text-green-700 mb-4">التنمية والازدهار</div>
-                    <p class="text-gray-600 text-sm">Économie moderne et éducation de qualité.</p>
-                    <p class="arabic text-lg text-gray-700 mt-2">اقتصاد حديث وتعليم عالي الجودة لمواجهة تحديات المستقبل.</p>
+
+                <div class="bg-white p-10 rounded-[2rem] shadow-xl border border-gray-100">
+                    <i class="fas fa-mobile-alt text-5xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Mauritanie (Bankily)</h3>
+                    <p class="text-gray-500 mb-6 text-sm">Don direct via votre application mobile locale.</p>
+                    <div class="bg-green-50 p-4 rounded-xl border-2 border-dashed border-green-200">
+                        <span class="text-2xl font-mono font-extrabold text-green-800 tracking-widest">46 50 00 20</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,44 +92,36 @@
 
     <section id="rejoindre" class="py-20 bg-white">
         <div class="container mx-auto px-4 max-w-xl">
-            <div class="bg-green-50 p-10 rounded-[2rem] shadow-2xl">
-                <h2 class="text-3xl font-bold text-center text-green-900 mb-2">Adhésion</h2>
-                <div class="arabic text-3xl text-center text-green-700 mb-8 font-bold">نموذج الانضمام</div>
-                
+            <div class="bg-gray-50 p-10 rounded-[2.5rem] shadow-2xl border border-gray-100">
+                <h2 class="text-3xl font-bold text-center text-green-900 mb-8">Devenir Membre de TEM</h2>
                 <form action="https://formspree.io/f/xeolryra" method="POST" class="space-y-4">
-                    <div class="arabic">
-                        <input type="text" name="name" placeholder="Nom Complet / الاسم الكامل" required class="w-full p-4 rounded-2xl border-none shadow-sm outline-none focus:ring-2 focus:ring-green-600">
-                    </div>
-                    <div class="arabic">
-                        <input type="tel" name="phone" placeholder="WhatsApp / رقم الهاتف" required class="w-full p-4 rounded-2xl border-none shadow-sm outline-none focus:ring-2 focus:ring-green-600">
-                    </div>
-                    <div class="arabic">
-                        <input type="text" name="city" placeholder="Ville / المدينة" required class="w-full p-4 rounded-2xl border-none shadow-sm outline-none focus:ring-2 focus:ring-green-600">
-                    </div>
-                    <button type="submit" class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-5 rounded-2xl shadow-lg transition text-xl uppercase">
-                        S'inscrire / إرسال الطلب
+                    <input type="text" name="name" placeholder="Nom Complet / الاسم الكامل" required class="w-full p-4 rounded-2xl border-gray-200 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <input type="tel" name="phone" placeholder="WhatsApp / رقم الهاتف" required class="w-full p-4 rounded-2xl border-gray-200 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <input type="text" name="city" placeholder="Ville / المدينة" required class="w-full p-4 rounded-2xl border-gray-200 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <button type="submit" class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-5 rounded-2xl shadow-lg transition text-xl">
+                        Envoyer l'Adhésion / إرسال
                     </button>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer id="contact" class="bg-slate-900 text-white py-16">
+    <footer class="bg-slate-900 text-white py-16">
         <div class="container mx-auto px-4 text-center">
-            <div class="arabic text-3xl font-bold text-yellow-400 mb-4">حزب التحالف من أجل موريتانيا</div>
-            <p class="text-lg font-bold mb-8 uppercase tracking-widest text-slate-300">Alliance pour la Mauritanie (PAM)</p>
+            <div class="text-3xl font-black mb-2 tracking-tighter uppercase text-green-500">TEM</div>
+            <p class="text-yellow-400 font-bold mb-10 italic">Parti de l'Alliance pour la Mauritanie</p>
             
-            <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-12">
-                <div class="bg-slate-800 p-6 rounded-2xl">
-                    <p class="text-xs text-slate-400 uppercase mb-2">Siège / المقر الرئيسي</p>
-                    <p class="text-xl font-bold">+222 46 50 00 20</p>
+            <div class="flex flex-col md:flex-row justify-center gap-8 mb-12">
+                <div>
+                    <p class="text-xs text-slate-500 uppercase">Nouakchott</p>
+                    <p class="font-bold">+222 46 50 00 20</p>
                 </div>
-                <div class="bg-slate-800 p-6 rounded-2xl">
-                    <p class="text-xs text-slate-400 uppercase mb-2">Europe / أوروبا</p>
-                    <p class="text-xl font-bold">+49 162 9336511</p>
+                <div>
+                    <p class="text-xs text-slate-500 uppercase">Europe (Bureau)</p>
+                    <p class="font-bold">+49 162 9336511</p>
                 </div>
             </div>
-            <p class="text-xs text-slate-500 italic">Bâtir l'avenir dès aujourd'hui | لنبنِ المستقبل اليوم</p>
+            <p class="text-[10px] text-slate-600 uppercase tracking-[0.2em]">© 2026 TEM - Bâtir l'avenir de la Mauritanie</p>
         </div>
     </footer>
 
