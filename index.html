@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEM | Parti Politique Mauritanie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .arabic { direction: rtl; font-family: serif; }
+        .whatsapp-float {
+            position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px;
+            background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center;
+            font-size: 30px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 100;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <a href="https://wa.me/22246500020" class="whatsapp-float flex items-center justify-center hover:bg-green-600 transition" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <nav class="bg-green-700 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tighter">TEM <span class="text-yellow-400">.</span></h1>
+            <div class="hidden md:flex space-x-6">
+                <a href="#vision" class="hover:text-yellow-300">Vision</a>
+                <a href="#rejoindre" class="hover:text-yellow-300">Adhésion</a>
+                <a href="#contact" class="hover:text-yellow-300">Contact</a>
+            </div>
+            <div class="arabic text-xl font-bold">تـم</div>
+        </div>
+    </nav>
+
+    <header class="bg-white py-16 md:py-24 border-b">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4 text-green-800 tracking-tight">Pour une Mauritanie Unie</h2>
+            <div class="arabic text-3xl mb-6 text-green-700">من أجل موريتانيا موحدة</div>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10">Un mouvement politique pour la justice, l'unité et le progrès.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#rejoindre" class="bg-yellow-500 hover:bg-yellow-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-lg transition">S'inscrire / تسجيل</a>
+                <a href="https://wa.me/491629336511" class="bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-full font-bold text-lg shadow-lg transition flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Contact Europe
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="vision" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 grid md:grid-cols-3 gap-8 text-center">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-green-600">
+                <i class="fas fa-balance-scale text-4xl text-green-600 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Justice Sociale</h3>
+                <div class="arabic font-bold text-lg mb-2 text-green-700">العدالة الاجتماعية</div>
+                <p class="text-gray-600">Garantir l'égalité des chances pour chaque citoyen mauritanien.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-yellow-500">
+                <i class="fas fa-university text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Modernisation</h3>
+                <div class="arabic font-bold text-lg mb-2 text-yellow-600">التحديث</div>
+                <p class="text-gray-600">Développer nos infrastructures et notre économie.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-green-600">
+                <i class="fas fa-hand-holding-heart text-4xl text-green-600 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Solidarité</h3>
+                <div class="arabic font-bold text-lg mb-2 text-green-700">التضامن</div>
+                <p class="text-gray-600">Unir toutes les forces vives de la nation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rejoindre" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <div class="bg-gray-50 p-8 rounded-3xl shadow-xl border border-gray-200">
+                <h2 class="text-3xl font-bold text-center text-green-800 mb-2">Devenir Membre</h2>
+                <div class="arabic text-2xl text-center text-green-700 mb-8">انضم إلى التغيير</div>
+                
+                <form action="https://formspree.io/f/xeolryra" method="POST" class="space-y-4">
+                    <input type="text" name="name" placeholder="Nom Complet / الاسم الكامل" required class="w-full p-4 rounded-xl border-gray-300 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <input type="tel" name="phone" placeholder="Téléphone / الهاتف" required class="w-full p-4 rounded-xl border-gray-300 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <input type="text" name="city" placeholder="Ville / المدينة" required class="w-full p-4 rounded-xl border-gray-300 border focus:ring-2 focus:ring-green-600 outline-none">
+                    <button type="submit" class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-4 rounded-xl shadow-lg transition text-xl">
+                        Envoyer / إرسال
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-green-900 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-6 italic text-yellow-400">TEM Mauritanie</h3>
+            <div class="grid md:grid-cols-2 gap-8 mb-10 max-w-xl mx-auto">
+                <div class="bg-green-800 p-4 rounded-lg">
+                    <p class="text-sm uppercase tracking-widest text-green-400">Siège Nouakchott</p>
+                    <p class="font-bold">+222 46 50 00 20</p>
+                </div>
+                <div class="bg-green-800 p-4 rounded-lg">
+                    <p class="text-sm uppercase tracking-widest text-green-400">Représentation Europe</p>
+                    <p class="font-bold">+49 162 9336511</p>
+                </div>
+            </div>
+            <div class="flex justify-center space-x-8 text-3xl mb-8">
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-xs text-green-500 uppercase tracking-widest">© 2026 Parti TEM - Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+</html>
